@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class PigLatin {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-	
+		
 		String words;
 		String yes = "";
 		
 		System.out.println("Welcome to the Pig Latin Translator!");
 		
+		do{
 		//Create scanner
 		Scanner input = new Scanner(System.in);
 		
@@ -19,11 +19,13 @@ public class PigLatin {
 		
 		//Ask user if they want to translate another line
 		System.out.println("Translate another line? (y/n): ");
-		while(yes.equalsIgnoreCase ("y")){
+	
 			yes = input.nextLine();	
 			yes = input.nextLine();
 		}
-		
+			while(yes.equalsIgnoreCase ("y"));
 	}
-
+	
 }
+
+
