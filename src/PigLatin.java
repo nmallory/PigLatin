@@ -16,6 +16,8 @@ public class PigLatin {
 		//Prompt the user to enter a line to be translated.
 		System.out.println("Enter a line to be translated: this sentence exists here: ");
 		words = input.next();
+	
+		System.out.println(words.toLowerCase());
 		
 		//Ask user if they want to translate another line
 		System.out.println("Translate another line? (y/n): ");
